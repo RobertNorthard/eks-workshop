@@ -41,7 +41,7 @@ kubectl apply -f ~/environment/resource-management/low-priority-class.yml
 ```
 
 {{% notice info %}}
-Pods with without a  `PriorityClass` are 0. A global `PriorityClass` can be assigned. Additional details can be found [here](https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/#priorityclass) 
+Pods without a `PriorityClass` are 0. A global `PriorityClass` can be assigned. Additional details can be found [here](https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/#priorityclass) 
 {{% /notice %}}
 
 ## Deploy low-priority Pods
